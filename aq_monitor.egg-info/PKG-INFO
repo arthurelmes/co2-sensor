@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: aq-monitor
+Version: 0.0.0
+Summary: This program monitors air quality as recorded by an SDS001 module connected to a Raspberry Pi.

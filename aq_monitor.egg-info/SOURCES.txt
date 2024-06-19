@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+aq_monitor/aqs.py
+aq_monitor.egg-info/PKG-INFO
+aq_monitor.egg-info/SOURCES.txt
+aq_monitor.egg-info/dependency_links.txt
+aq_monitor.egg-info/top_level.txt
+aq_monitor/test/aqs_test.py

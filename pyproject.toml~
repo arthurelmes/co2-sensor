@@ -1,0 +1,3 @@
+[build-system]
+# min reqs
+requires = ["setuptools", "wheel"] # PEP 508 specs

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "co2-monitor"
+version = "0.1.0"
+description = "This program monitors CO2 as recorded by an MH-Z19 module connected to a Raspberry Pi."
+authors = ["Arthur Elmes <arthur.elmes@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+py-sds011 = {git = "https://github.com/UedaTakeyuki/mh-z19.git"}
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
