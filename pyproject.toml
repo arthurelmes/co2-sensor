@@ -8,7 +8,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-py-sds011 = {git = "https://github.com/UedaTakeyuki/mh-z19.git"}
 pandas = "^2.2.2"
 
 [tool.poetry.group.dev.dependencies]
