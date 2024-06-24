@@ -1,8 +1,9 @@
 import mh_z19 as m19
 import argparse
 from datetime import datetime, timedelta
+from typing import Dict
 
-def parse_args():
+def parse_args() -> Dict:
     parser = argparse.ArgumentParser(
         prog="log_c02",
         description="Log CO2 concentration at given interval for given time period."
@@ -13,7 +14,8 @@ def parse_args():
     parser.add_argument("-l", "--log_file_path", type=str, help="Full path to output logfile.", default="co2-log.txt")
 
     args = parser.parse_args()
-
+    args = vars(args)
+    
     return args
 
 if __name__ == "__main__":
